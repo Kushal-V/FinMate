@@ -1,0 +1,7 @@
+# .easignore
+
+node_modules
+frontend/
+*.log
+android/.gradle
+android/build

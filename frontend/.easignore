@@ -1,0 +1,12 @@
+node_modules
+*.log
+android/
+ios/
+.expo
+.expo-shared
+build/
+dist/
+coverage/
+__tests__/
+__mocks__/
+src/assets/test/

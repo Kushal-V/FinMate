@@ -1,0 +1,10 @@
+{
+  "android": {
+    "package": "com.kushal6104.finmate"
+  },
+  "extra": {
+    "eas": {
+      "projectId": "a7a1e34b-e5d0-4a2d-9a63-55b1e24e29f4"
+    }
+  }
+}

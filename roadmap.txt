@@ -1,0 +1,87 @@
+**BillSnap+ Development Roadmap**
+
+---
+
+**Overview:**  
+BillSnap+ is a mobile-first, AI-powered personal finance platform built with full-stack technology. It includes receipt scanning, expense tracking, payments, stock tracking, savings, investment management, and AI-powered insights.
+
+---
+
+### 🔢 Step-by-Step Development Plan
+
+#### 🔹 Step 1: Project Planning & Setup (Day 1–2)
+- Finalize tech stack:
+  - Mobile: React Native (Expo)
+  - Backend: Node.js + Express
+  - AI Services: Python (FastAPI/Flask)
+  - Database: MongoDB
+- Set up GitHub repo and monorepo structure (mobile + backend + AI service folders)
+
+---
+
+#### 🔹 Step 2: Backend Setup (Day 3–5)
+- Initialize Express.js project
+- Implement:
+  - Auth routes (/register, /login)
+  - User model with JWT and bcrypt
+  - Health route (/health)
+- Connect to MongoDB Atlas
+- Enable CORS and .env config
+
+---
+
+#### 🔹 Step 3: Mobile App Base (Day 6–8)
+- Use Expo CLI to start React Native project
+- Build:
+  - Splash screen
+  - Login/Signup screens
+  - Home screen with dummy data
+- Connect API to backend for auth
+
+---
+
+#### 🔹 Step 4: AI Microservice – Receipt Scanner (Day 9–11)
+- Create FastAPI or Flask service
+- Input: Image of receipt
+- Output: Date, merchant, items, category, total
+- Use Tesseract or EasyOCR for OCR
+- Return parsed JSON
+
+---
+
+#### 🔹 Step 5: Expense Tracker & Dashboard (Day 12–15)
+- Build "Add Expense" screen (manual + AI autofill)
+- Show category-wise/monthly breakdown
+- Use chart libraries (Victory Native or react-native-svg-charts)
+
+---
+
+#### 🔹 Step 6: Payment + Stock Module (Day 16–20)
+- Integrate Razorpay test or mock payments
+- Add items to stock from purchases
+- Set thresholds and low-stock alerts
+
+---
+
+#### 🔹 Step 7: Savings, Goals, and Investment (Day 21–25)
+- Goal-setting screen with progress tracking
+- AI savings suggestion system
+- Manual investment tracking (stocks, crypto, MF)
+- Growth analytics dashboard
+
+---
+
+#### 🔹 Step 8: AI Assistant (Optional Last Phase)
+- Chat interface: "What did I spend last week?"
+- Use OpenAI or open-source LLMs
+- Return charts, trends, and suggestions
+
+---
+
+### 📈 Outcome:
+A modern, mobile-first personal finance app powered by AI, with syncing, security, and real-world value.
+
+---
+
+**Next Step:** Set up folder structure and initialize backend or mobile app based on priority.
+

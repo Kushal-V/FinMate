@@ -1,0 +1,17 @@
+{
+    "_id": "67f989988bc6f124853dc97b",
+    "name": "Test User",
+    "email": "testuser@example.com",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Zjk4OTk4OGJjNmYxMjQ4NTNkYzk3YiIsImlhdCI6MTc0NDQwNjkzNiwiZXhwIjoxNzQ2OTk4OTM2fQ.lPmyb7UuTjvgJyS3gX58q7kMOHX_2eC2j6rK8-PxTg4"
+}
+
+D:\WORK\Project\FinM…egisterScreen.js:21 The action 'REPLACE' with payload {"name":"Dashboard"} was not handled by any navigator.
+
+Do you have a screen named 'Dashboard'?
+
+If you're trying to navigate to a screen in a nested navigator, see https://reactnavigation.org/docs/nesting-navigators#navigating-to-a-screen-in-a-nested-navigator.
+
+If you're using conditional rendering, navigation will happen automatically and you shouldn't navigate manually, see.
+
+This is a development-only warning and won't be shown in production.
+handleRegister	@	D:\WORK\Project\FinM…egisterScreen.js:21
