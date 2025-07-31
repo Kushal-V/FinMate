@@ -1,4 +1,5 @@
 // frontend/App.js
+// akjwbcka
 
 import { StyleSheet, Platform, PermissionsAndroid, Alert } from 'react-native';
 import React, { useEffect, useState, useContext } from 'react';
